@@ -1,0 +1,64 @@
+
+.page-background{
+    height: 1000px;
+}
+
+.page-background-image {
+    height: 150px;
+    background-image: url("../../assets/home_background.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.center-container {
+    position: absolute;
+    right: 237px;
+    top: 237px;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page-white-background {
+    background-color: #FFF;
+    padding-bottom: 300px;
+
+    margin-top: 100px;
+}
+
+.case-title {
+    width: 606px;
+    color:#0E1728;
+    font-family: Helvetica;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.case-text {
+    width: 642px;
+    position: absolute;
+    left: 78px;
+    bottom: -162px;
+    color:#0E1728;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+}
+
+.case-img {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
